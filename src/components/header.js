@@ -1,3 +1,4 @@
+import React from 'react';
 import PropTypes from 'prop-types'
 
 
@@ -17,8 +18,8 @@ function Header ({tekst, bgColor, clr}) {
 
 Header.defaultProps = {
   tekst: 'Feedback UI',
-  bgColor: 'yellow',
-  clr: 'green'
+  bgColor: 'rgba(0,0,0,0.4)',
+  clr: '#ff6a95'
 }
 
 Header.propTypes = {
